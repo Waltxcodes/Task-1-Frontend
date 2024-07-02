@@ -1,91 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task-1-Frontend</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Task-1-Frontend</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="links">
-      <div class="left-link">
-        <a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a>
+  <body>
+    <div class="container">
+      <div class="links">
+        <div class="left-link">
+          <a href="https://hng.tech/learn" data-testid="hngLink"
+            >hng.tech/learn</a
+          >
+        </div>
+        <div class="right-link">
+          <a href="https://keyword.dog" data-testid="keywordLink"
+            >Keyword.dog</a
+          >
+          <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+            >scrapeanyweb.site</a
+          >
+        </div>
       </div>
-      <div class="right-link">
-        <a href="https://keyword.dog" data-testid="keywordLink">Keyword.dog</a>
-        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a>
+
+      <div class="profile">
+        <div class="profile-info">
+          <p>Slack Name: <span data-testid="slackDisplayName">WaltX</span></p>
+          <p>
+            Slack Email:
+            <span data-testid="slackEmail">anekewalter@gmail.com</span>
+          </p>
+          <p>
+            Current Time (UTC):
+            <span id="currentTime" data-testid="currentTimeUTC"></span>
+          </p>
+          <p>
+            Current Day: <span id="currentDay" data-testid="currentDay"></span>
+          </p>
+        </div>
+        <div class="profile-pic">
+          <img
+            src="./img/2ieS8DBpPkdeOdo26m7P9ff0zBV.svg"
+            alt="Slack Profile Picture"
+            data-testid="slackProfilePicture"
+          />
+        </div>
+      </div>
+
+      <div class="goals">
+        <h3>My Goals in Tech Field for the next two years</h3>
+        <ul>
+          <li>
+            Learn Programming Languages: To lay a solid foundation, become
+            proficient in the fundamentals of at least one programming language,
+            such as Python or JavaScript.
+          </li>
+          <li>
+            Build Projects: To practice and demonstrate my abilities, I will
+            create a few modest projects, like a simple app or personal website.
+            Gain an understanding of web development by learning how to use
+            HTML, CSS, and JavaScript to create websites and web applications.
+          </li>
+          <li>
+            Learn Version Control: Become familiar with managing and
+            collaborating on code projects with Git and GitHub.
+          </li>
+          <li>
+            Become a Member of Tech Communities: Engage in local meetups,
+            forums, and online tech communities to expand your network and pick
+            up tips from others.
+          </li>
+          <li>
+            Boost Your Problem-Solving Ability: I should practice solving
+            algorithms and coding problems to improve my problem-solving skills.
+          </li>
+          <li>
+            Explore New Technologies: Keep abreast with the newest developments
+            in technology, including cloud services like AWS and front-end
+            development tools like React.
+          </li>
+          <li>
+            Participate in Open Source: To obtain practical experience and work
+            together with other developers, begin making contributions to
+            open-source projects.
+          </li>
+          <li>
+            Develop a Professional Portfolio: To draw in clients or employers, I
+            want to put together a portfolio that highlights my work and
+            abilities.
+          </li>
+          <li>
+            Obtain an Internship or Entry-Level Job: Work in the tech sector to
+            obtain real-world experience by landing an internship or entry-level
+            position.
+          </li>
+        </ul>
       </div>
     </div>
-
-    <div class="profile">
-      <div class="profile-info">
-        <p >Slack Name: <span data-testid="slackDisplayName">WaltX</span></p>
-        <p>Slack Email: <span data-testid="slackEmail">anekewalter@gmail.com</span></p>
-        <p>Current Time (UTC): <span id="currentTime" data-testid="currentTimeUTC"></span></p>
-        <p>Current Day: <span id="currentDay" data-testid="currentDay"></span>
-        </p>
-      </div>
-      <div class="profile-pic">
-        <img src="./img/2ieS8DBpPkdeOdo26m7P9ff0zBV.svg" alt="Slack Profile Picture"
-          data-testid="slackProfilePicture" />
-      </div>
-    </div>
-
-    <div class="goals">
-      <h3>My Goals in Tech Field for the next two years</h3>
-      <ul>
-        <li>
-          Learn Programming Languages: To lay a solid foundation, become
-          proficient in the fundamentals of at least one programming language,
-          such as Python or JavaScript.
-        </li>
-        <li>
-          Build Projects: To practice and demonstrate my abilities, I will
-          create a few modest projects, like a simple app or personal
-          website. Gain an understanding of web development by learning how to
-          use HTML, CSS, and JavaScript to create websites and web
-          applications.
-        </li>
-        <li>
-          Learn Version Control: Become familiar with managing and
-          collaborating on code projects with Git and GitHub.
-        </li>
-        <li>
-          Become a Member of Tech Communities: Engage in local meetups,
-          forums, and online tech communities to expand your network and pick
-          up tips from others.
-        </li>
-        <li>
-          Boost Your Problem-Solving Ability: I should practice solving
-          algorithms and coding problems to improve my problem-solving skills.
-        </li>
-        <li>
-          Explore New Technologies: Keep abreast with the newest developments
-          in technology, including cloud services like AWS and front-end
-          development tools like React.
-        </li>
-        <li>
-          Participate in Open Source: To obtain practical experience and work
-          together with other developers, begin making contributions to
-          open-source projects.
-        </li>
-        <li>
-          Develop a Professional Portfolio: To draw in clients or employers, I
-          want to put together a portfolio that highlights my work and
-          abilities.
-        </li>
-        <li>
-          Obtain an Internship or Entry-Level Job: Work in the tech sector to
-          obtain real-world experience by landing an internship or entry-level
-          position.
-        </li>
-      </ul>
-    </div>
-  </div>
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
