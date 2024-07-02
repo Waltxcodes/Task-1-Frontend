@@ -75,8 +75,8 @@ font-size: larger;
   
 }
 
-.goals h2{
-  margin-left: 39px;
+.goals h3{
+  margin-left: 160px;
 }
 
 .goals li{
@@ -106,6 +106,10 @@ font-size: larger;
     
     
     
+  }
+
+  .goals h3{
+    margin-left: 38px;
   }
   
 
@@ -141,7 +145,7 @@ font-size: larger;
     padding: 25px;
   }
 
-  .goals h2{
+  .goals h3{
     white-space: nowrap;
     font-size: medium;
     font-weight: 700;
@@ -165,15 +169,17 @@ font-size: larger;
   }
 
   .goals {
-    margin-left: 10px;
-    width: 82vw;
-    padding: 10px;
+    margin-left: 15px;
+    width: 75vw;
+    padding: 32px;
   }
 
-  .goals h2 {
-    margin-left: 10px;
-    font-size: small;
+  .goals h3 {
+    margin-left: 1px;
+    font-size: medium;
     align-items: center;
+    font-weight: 100;
+    
   }
 
 
