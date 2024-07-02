@@ -6,6 +6,7 @@ body {
   margin: 0;
   background-color: #f9f9f9 ;
   color: white;
+  overflow-x: hidden;
 }
 
 
@@ -165,13 +166,14 @@ font-size: larger;
 
   .goals {
     margin-left: 10px;
-    width: 90vw;
-    padding: 13px;
+    width: 82vw;
+    padding: 10px;
   }
 
   .goals h2 {
     margin-left: 10px;
     font-size: small;
+    align-items: center;
   }
 
 
