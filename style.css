@@ -169,13 +169,13 @@ font-size: larger;
   }
 
   .goals {
-    margin-left: 15px;
+    margin-left: 18px;
     width: 79vw;
-    padding: 30px;
+    padding: 20px;
   }
 
   .goals h3 {
-    margin-left: none;
+    margin-left: 0;
     font-size: medium;
     align-items: center;
     font-weight: 100;
