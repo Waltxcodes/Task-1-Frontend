@@ -1,0 +1,182 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9 ;
+  color: white;
+}
+
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d3966;
+  color: white;
+  padding: 40px;
+  cursor: pointer;
+
+}
+
+.right-link{
+  display: flex;
+  gap: 30px;
+}
+
+ a{
+  text-decoration: none;
+  color: white;
+font-size: larger;
+}
+
+.vertical-line{
+  
+    border-left: 2px solid white;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+
+ .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  padding-top: 30px;
+  background-color: white;
+  margin: 40px;
+  gap: 150px;
+  border-radius: 4px;
+  
+  
+
+} 
+
+.profile-info{
+  font-size: x-large;
+  font-weight: 800;
+  color: #000000;
+
+ 
+}
+
+
+.goals{
+  background-color: #494949;
+  padding: 20px;
+  margin-left: 220px;
+  width: 60vw;
+  font-family: sans-serif;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  
+}
+
+.goals h2{
+  margin-left: 39px;
+}
+
+.goals li{
+  line-height: 30px;
+}
+
+@media (max-width: 991px){
+
+  .profile {
+    
+    gap: 120px;
+    
+  
+  } 
+
+  .profile-info{
+    font-size: large;
+    font-weight: 700;
+    color: #000000;
+  
+   
+  }
+
+  .goals{
+   
+    margin-left: 140px;
+    
+    
+    
+  }
+  
+
+
+
+}
+  
+
+
+@media (max-width: 768px) {
+  .links {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 20px;
+    font-size: small;
+  }
+
+  .right-link {
+    /* flex-direction: column; */
+    gap: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .goals {
+    margin-left: 9px;
+    width: 87vw;
+    padding: 25px;
+  }
+
+  .goals h2{
+    white-space: nowrap;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 20px
+  }
+}
+
+@media (max-width: 480px) {
+  .links {
+    padding: 10px;
+  }
+
+  .right-link {
+    gap: 10px;
+  }
+
+  .profile {
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .goals {
+    margin-left: 10px;
+    width: 90vw;
+    padding: 13px;
+  }
+
+  .goals h2 {
+    margin-left: 10px;
+    font-size: small;
+  }
+
+
+  .goals li {
+    line-height: 23px;
+    font-size: small;
+  }
+}
