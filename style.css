@@ -170,12 +170,12 @@ font-size: larger;
 
   .goals {
     margin-left: 15px;
-    width: 75vw;
-    padding: 32px;
+    width: 79vw;
+    padding: 30px;
   }
 
   .goals h3 {
-    margin-left: 1px;
+    margin-left: none;
     font-size: medium;
     align-items: center;
     font-weight: 100;
